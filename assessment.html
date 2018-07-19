@@ -1,0 +1,151 @@
+
+<!DOCTYPE html >
+<html >
+<head>
+  <meta charset="utf-8">
+<style type="text/css">
+*{margin: 0;padding: 5px}
+h1 {text-align: center;}
+form {width:600px; margin:0 auto;padding: 35px;}
+form label {padding: 10px;}
+form label input {margin-right: 10px;}
+#td-centre {text-align: center;margin-top: 10px;}
+#td-centre input {margin: 0 10px;cursor: pointer;background-color:green;color:white;}
+.input-btn:hover{background-color:yellow;}
+a {text-decoration: none;}
+</style>
+</head>
+<body>
+<h1>
+华讯电商额度申请表
+</h1>
+
+<form action="#" method="post" name="user" id="forma">
+<table>
+<tr>
+<td>申请公司名称</td>
+<td><input type="text" name="d_org" placeholder="请输入中国公司名称"  required></td>
+</tr>
+<td>申请公司地址</td>
+<td><input type="text" name="d_address" placeholder="请输入中国公司地址"  required></td>
+</tr>
+<td>申请公司社会统一号</td>
+<td><input type="text" name="d_code" placeholder="请输入中国社会统一号"  required></td>
+</tr>
+<td>境外公司名称</td>
+<td><input type="text" name="f_org" placeholder="请输入境外公司名称"  required></td>
+</tr>
+<td>境外公司地址</td>
+<td><input type="text" name="f_address" placeholder="请输入境外公司地址"  required></td>
+</tr>
+<td>境外公司注册号或IC</td>
+<td><input type="text" name="f_code" placeholder="请输入境外公司注册号后或IC"  required></td>
+</tr>
+<td>公司员工人数</td>
+<td><input type="text" name="d_employee_numbers" placeholder="j境内外公司员工总和"  required></td>
+</tr>
+<tr>
+<td>是否是自营生产</td>
+<td>
+  <label><input type="radio" name="factory" value="yes" >是</label>
+  <label><input type="radio" name="factory" value="no" >否</label>
+</td>
+
+</tr>
+
+<tr>
+<td>2017年销售额（万元人民币）</td>
+<td><input type="number" name="sale_amt" placeholder="请输入金额"  min="0" required></td>
+
+</tr>
+<tr>
+<td>2017年净利润（万元人民币）</td>
+<td ><input type="number" name='profit' placeholder="请输入金额" min="0" required></td>
+<td></td>
+</tr>
+<tr>
+  <td>主要经营平台:</td>
+</tr>
+<tr>
+  <td>亚马逊</td>
+  <td>
+    <select>
+      <option selected>10%以内</option>
+      <option>10%-30%</option>
+      <option>30%-50%</option>
+      <option>50%以上</option>
+
+    </select>
+  </td>
+</tr>
+<tr>
+  <td>ebay</td>
+  <td>
+    <select>
+      <option selected>10%以内</option>
+      <option>10%-30%</option>
+      <option>30%-50%</option>
+      <option>50%以上</option>
+
+    </select>
+  </td>
+</tr>
+
+  <td>速迈通</td>
+  <td>
+    <select>
+      <option selected>10%以内</option>
+      <option>10%-30%</option>
+      <option>30%-50%</option>
+      <option>50%以上</option>
+
+    </select>
+  </td>
+</tr>
+<tr>
+  <td>WISH</td>
+  <td>
+    <select>
+      <option selected>10%以内</option>
+      <option>10%-30%</option>
+      <option>30%-50%</option>
+      <option>50%以上</option>
+
+    </select>
+  </td>
+</tr>
+<tr>
+  <td>其他</td>
+  <td>
+    <select>
+      <option selected>10%以内</option>
+      <option>10%-30%</option>
+      <option>30%-50%</option>
+      <option>50%以上</option>
+
+    </select>
+  </td>
+</tr>
+
+<tr>
+<td id="td-centre" colspan="2">
+   <label><input type="checkbox" value="agree">我已阅读并同意<a href="#" target="_blank">xxxxx协议</a></label>
+</td>
+</tr>
+<tr>
+<td id="td-centre" colspan="2">
+  <input type="submit" value="确认申请" disabled="disabled">
+  <input type="reset" value="重新填写" >
+</td>
+</tr>
+
+
+</table>
+
+
+
+
+</form>
+
+</body>
+</html>
